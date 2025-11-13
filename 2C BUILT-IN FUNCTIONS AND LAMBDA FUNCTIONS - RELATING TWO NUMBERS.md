@@ -24,17 +24,47 @@ To write a Python program to check the relation between two numbers — whether 
 ### PROGRAM
 
 ```
+# Reg.No: 212223060057
+# Name: DINESH KUMAR A
+# Write your code here
+
+# Getting two numbers from user
+num1 = eval(input("Enter first number: "))
+num2 = eval(input("Enter second number: "))
+
+# Defining a lambda function to compare numbers
+relation = lambda x, y: print("num2 is smaller than num1") if x > y else print("num1 is smaller than num2") if x < y else print("Both numbers are equal")
+
+# Calling the lambda function
+relation(num1, num2)
+
 
 ```
 
 ### OUTPUT
 
 ```
+Enter first number: 15
+Enter second number: 10
+num2 is smaller than num1
 
 ```
+or
+```
+Enter first number: 7
+Enter second number: 12
+num1 is smaller than num2
+
+```
+or
+```
+Enter first number: 5
+Enter second number: 5
+Both numbers are equal
+
+```
+
 
 ### RESULT
 
-```
-
-```
+Thus, the Python program to compare two numbers and display their relation using a lambda function was implemented and executed successfully.
