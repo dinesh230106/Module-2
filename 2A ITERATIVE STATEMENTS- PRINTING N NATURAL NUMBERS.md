@@ -34,16 +34,8 @@ for i in range(1, n + 1):
 
 ```
 ### OUTPUT
-```
-Enter the value of n: 5
-Natural Numbers are:
-1
-2
-3
-4
-5
+<img width="1185" height="611" alt="image" src="https://github.com/user-attachments/assets/29bac8f2-dff7-4332-b434-1f2d9ac8ef26" />
 
-```
 ### RESULT
 Thus, the Python program to print n natural numbers using a for loop was successfully implemented and executed.
 
