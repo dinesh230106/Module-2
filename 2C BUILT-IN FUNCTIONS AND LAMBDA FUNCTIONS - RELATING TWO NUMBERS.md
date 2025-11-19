@@ -26,43 +26,20 @@ To write a Python program to check the relation between two numbers — whether 
 ```
 # Reg.No: 212223060057
 # Name: DINESH KUMAR A
-# Write your code here
 
-# Getting two numbers from user
-num1 = eval(input("Enter first number: "))
-num2 = eval(input("Enter second number: "))
+# Define the lambda function
+multiply_by_45 = lambda z: z * 45
 
-# Defining a lambda function to compare numbers
-relation = lambda x, y: print("num2 is smaller than num1") if x > y else print("num1 is smaller than num2") if x < y else print("Both numbers are equal")
-
-# Calling the lambda function
-relation(num1, num2)
-
+# Example usage
+result = multiply_by_45(int(input()))  # Example input
+print(result)  # Output will be 450
 
 ```
 
 ### OUTPUT
 
-```
-Enter first number: 15
-Enter second number: 10
-num2 is smaller than num1
+<img width="404" height="245" alt="image" src="https://github.com/user-attachments/assets/d7a9e9e6-7f2e-4bbc-a237-6be3632c548d" />
 
-```
-or
-```
-Enter first number: 7
-Enter second number: 12
-num1 is smaller than num2
-
-```
-or
-```
-Enter first number: 5
-Enter second number: 5
-Both numbers are equal
-
-```
 
 
 ### RESULT
