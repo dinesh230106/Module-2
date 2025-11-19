@@ -44,17 +44,8 @@ perfectNumber(num)
 
 ```
 ### OUTPUT
-```
-Enter a number: 28
-28 is a Perfect Number
+<img width="1149" height="277" alt="image" src="https://github.com/user-attachments/assets/9f204517-0af4-4219-82a1-24cd7005c85d" />
 
-```
-or
-```
-Enter a number: 10
-10 is NOT a Perfect Number
-
-```
 
 ### RESULT
 Thus, the Python program to check whether a given number is a Perfect Number using functions was successfully implemented and executed.
