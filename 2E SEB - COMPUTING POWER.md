@@ -26,24 +26,17 @@ To write a Python program to compute the power of a given number using an approp
 # Name: DINESH KUMAR A
 # Write your code here
 
-# Taking input from user
-base = float(input("Enter the base number: "))
-exp = float(input("Enter the exponent number: "))
 
-# Computing power using built-in function
-result = pow(base, exp)
-
-# Displaying result
-print(f"{base} raised to the power of {exp} is {result}")
-
+def result(a, b, c):
+    mul =a*b*c
+    print("Multiply is",mul)   
+a=int(input())
+b=int(input())
+c=int(input())
 ```
 ### OUTPUT
-```
-Enter the base number: 3
-Enter the exponent number: 4
-3.0 raised to the power of 4.0 is 81.0
+<img width="1130" height="488" alt="image" src="https://github.com/user-attachments/assets/84daea43-cdee-4b0e-804f-baf9bb073c83" />
 
-```
 
 ### RESULT
 Thus, the Python program to compute the power of a given number using the pow() built-in function was successfully implemented and executed.
